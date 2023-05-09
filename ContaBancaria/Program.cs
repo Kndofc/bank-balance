@@ -7,7 +7,7 @@ class Program
         Console.Write("Insira o saldo inicial: ");
         decimal saldoInicial = decimal.Parse(Console.ReadLine());
 
-        ContaBancaria conta = new ContaBancaria(saldoInicial);
+        ContaBancaria conta = new ContaBancaria(1, saldoInicial);
 
         while (true)
         {
